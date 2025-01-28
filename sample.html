@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Trailer Page</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <h1 id="movie-title" class="movie-title">The Amazing Movie</h1>
+    </header>
+
+    <section id="trailer-section" class="trailer-section">
+        <h2 class="section-title">Watch the Trailer</h2>
+
+       <div class="video-container">
+    <iframe id="movie-trailer" class="movie-trailer" 
+        src="https://www.youtube.com/embed/tA1s65o_kYM" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
+
+    
+    </section>
+
+    <section id="description-section" class="description-section">
+        <h2 class="section-title">About the Movie</h2>
+        <p id="movie-description" class="movie-description">This is an amazing movie that takes you on a thrilling adventure. It features breathtaking visuals, compelling storytelling, and unforgettable performances.</p>
+    </section>
+
+    <section id="songs-section" class="songs-section">
+        <h2 class="section-title">Soundtrack</h2>
+        <table id="songs-table" class="songs-table">
+            <thead>
+                <tr>
+                    <th class="table-header">Track No</th>
+                    <th class="table-header">Song Name</th>
+                    <th class="table-header">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="songs-body">
+                <tr>
+                    <td class="song-number">1</td>
+                    <td class="song-name">Amazing Song 1</td>
+                    <td class="song-actions"><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td class="song-number">2</td>
+                    <td class="song-name">Amazing Song 2</td>
+                    <td class="song-actions"><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td class="song-number">3</td>
+                    <td class="song-name">Amazing Song 3</td>
+                    <td class="song-actions"><button class="delete-button">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.movie-title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Trailer Section Styles */
+.trailer-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    width: 560px; /* Initial width */
+    height: 315px; /* Initial height */
+    max-width: 100%; /* Limit resizing to screen width */
+    max-height: 100%; /* Limit resizing to screen height */
+    resize: both; /* Allow resizing both horizontally and vertically */
+    overflow: hidden; /* Prevent content overflow when resized */
+    border: 2px solid #ddd; /* Optional: Border for better visibility */
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.movie-trailer {
+    width: 100%; /* Match the container's width */
+    height: 100%; /* Match the container's height */
+    border: none;
+}
+
+
+/* Description Section Styles */
+.description-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.movie-description {
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+
+/* Songs Section Styles */
+.songs-section {
+    padding: 20px;
+}
+
+.songs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.songs-table th, .songs-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-header {
+    background-color: #444;
+    color: white;
+}
+
+.song-number, .song-name, .song-actions {
+    font-size: 1em;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
