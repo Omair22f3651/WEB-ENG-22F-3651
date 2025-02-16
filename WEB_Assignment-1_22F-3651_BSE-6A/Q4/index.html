@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmairPay - Bank Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OmairPay - Bank Simulation</h1>
+
+        <div class="account-info">
+            <p><strong>Account Number:</strong> <span id="accountNumber"></span></p>
+            <p><strong>Current Balance:</strong> PKR <span id="balance"></span></p>
+        </div>
+
+        <form id="transactionForm">
+            <label for="amount">Enter Amount (PKR):</label>
+            <input type="number" id="amount" required>
+            
+            <button type="button" onclick="deposit()">Deposit</button>
+            <button type="button" onclick="withdraw()">Withdraw</button>
+            <button type="button" onclick="downloadHistory()">Download History</button>
+        </form>
+
+        <div class="history">
+            <h2>Transaction History</h2>
+            <ul id="transactionList"></ul>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Muhammad Omair | Roll No: 22F-3651
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

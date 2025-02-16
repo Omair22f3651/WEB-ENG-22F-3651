@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    color: #ff0000;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ff0000;
+    text-shadow: 1px 1px 10px rgba(255, 0, 0, 0.7);
+}
+
+.discount-section,
+.promo-section {
+    margin: 15px 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ff0000;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #ff0000;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+button:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list li {
+    background: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-list li.selected {
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+}
+
+.summary {
+    margin-top: 20px;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}

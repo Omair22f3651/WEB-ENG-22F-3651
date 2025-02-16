@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #003087;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    color: #003087;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 214, 0, 0.8);
+}
+
+h1 {
+    color: #003087;
+    text-shadow: 1px 1px 10px #009cde;
+}
+
+.account-info {
+    background: #009cde;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #009cde;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #003087, #009cde);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #009cde, #003087);
+    transform: scale(1.05);
+}
+
+.history {
+    margin-top: 20px;
+    background: rgba(0, 48, 135, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #003087;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #009cde;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}

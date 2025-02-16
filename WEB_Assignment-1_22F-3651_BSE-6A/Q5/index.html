@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmairDeals - Student Discount System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OmairDeals - Exclusive Student Discounts</h1>
+
+        <div class="discount-section">
+            <label for="rollNumber">Enter Roll Number:</label>
+            <input type="text" id="rollNumber" placeholder="e.g., 22F-3651" oninput="updateDiscount()">
+            <p><strong>Discount:</strong> <span id="discount">0%</span></p>
+        </div>
+
+        <div class="product-list">
+            <h2>Select Products</h2>
+            <ul id="products">
+                <!-- Products will be populated dynamically -->
+            </ul>
+        </div>
+
+        <div class="promo-section">
+            <label for="promoCode">Promo Code (Optional):</label>
+            <input type="text" id="promoCode" placeholder="Enter promo code">
+        </div>
+
+        <div class="summary">
+            <h2>Order Summary</h2>
+            <p><strong>Total Price:</strong> PKR <span id="totalPrice">0</span></p>
+            <p><strong>Discounted Price:</strong> PKR <span id="finalPrice">0</span></p>
+        </div>
+
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    <footer>
+        © 2025 Muhammad Omair | Roll No: 22F-3651
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
